@@ -22,14 +22,11 @@
 					var re = new RegExp("{{{" + i + "}}}","gi");
 					that.html = that.html.replace (re, val);
 					var rehtml = new RegExp("{{" + i + "}}","gi");
-					htmlval = htmlEntities(val);
+					htmlval = String(val).replace(/<\/?[^>]+(>|$)/g, "");;
 					that.html = that.html.replace (rehtml, htmlval);
 				});
 			}
 			return this.html;
-		},
-		htmlEntities: function(str){
-	   		return String(str).replace(/<\/?[^>]+(>|$)/g, "");
 		}
 	}
 })(window, document);
