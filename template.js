@@ -22,7 +22,7 @@
 					var re = new RegExp("{{{" + i + "}}}","gi");
 					that.html = that.html.replace (re, val);
 					var rehtml = new RegExp("{{" + i + "}}","gi");
-					htmlval = this.htmlEntities(val);
+					htmlval = htmlEntities(val);
 					that.html = that.html.replace (rehtml, htmlval);
 				});
 			}
