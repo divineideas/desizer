@@ -1,19 +1,19 @@
-.ds-mod-colum{
+.ds-mod-column{
 	position: relative;
 	float: left;
 	padding: 0 10px;
 	box-sizing: border-box;
 	min-height: 1px;
 }
-.ds-mod-colum.fcl, .ds-mod-colum.fcs{
+.ds-mod-column.fcl, .ds-mod-column.fcs{
 	width: 25%;
 }
-.ds-mod-colum.tcl, .ds-mod-colum.tcs{
+.ds-mod-column.tcl, .ds-mod-column.tcs{
 	width: 33%;
 }
-.ds-mod-colum.wcl, .ds-mod-colum.wcs{
+.ds-mod-column.wcl, .ds-mod-column.wcs{
 	width: 50%;
 }
-.ds-mod-colum.ocl, .ds-mod-colum.ocs{
+.ds-mod-column.ocl, .ds-mod-column.ocs{
 	width: 100%;
 }

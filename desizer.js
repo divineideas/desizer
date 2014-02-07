@@ -53,32 +53,32 @@
 			this.wrapper.innerHTML = '';
 			if(this.options.currentClass=='fcl' || this.options.currentClass=='fcs'){
 				//adding for columns
-				this.wrapper.innerHTML = this.wrapper.innerHTML + '<div class="ds-mod-colum ds-column1"></div>';
-				this.wrapper.innerHTML = this.wrapper.innerHTML + '<div class="ds-mod-colum ds-column2"></div>';
-				this.wrapper.innerHTML = this.wrapper.innerHTML + '<div class="ds-mod-colum ds-column3"></div>';
-				this.wrapper.innerHTML = this.wrapper.innerHTML + '<div class="ds-mod-colum ds-column4"></div>';
+				this.wrapper.innerHTML = this.wrapper.innerHTML + '<div class="ds-mod-column ds-column1"></div>';
+				this.wrapper.innerHTML = this.wrapper.innerHTML + '<div class="ds-mod-column ds-column2"></div>';
+				this.wrapper.innerHTML = this.wrapper.innerHTML + '<div class="ds-mod-column ds-column3"></div>';
+				this.wrapper.innerHTML = this.wrapper.innerHTML + '<div class="ds-mod-column ds-column4"></div>';
 				this.options.colcount = 4;
 			}else if(this.options.currentClass=='tcl' || this.options.currentClass=='tcs'){
 				//adding for columns
-				this.wrapper.innerHTML = this.wrapper.innerHTML + '<div class="ds-mod-colum ds-column1"></div>';
-				this.wrapper.innerHTML = this.wrapper.innerHTML + '<div class="ds-mod-colum ds-column2"></div>';
-				this.wrapper.innerHTML = this.wrapper.innerHTML + '<div class="ds-mod-colum ds-column3"></div>';
+				this.wrapper.innerHTML = this.wrapper.innerHTML + '<div class="ds-mod-column ds-column1"></div>';
+				this.wrapper.innerHTML = this.wrapper.innerHTML + '<div class="ds-mod-column ds-column2"></div>';
+				this.wrapper.innerHTML = this.wrapper.innerHTML + '<div class="ds-mod-column ds-column3"></div>';
 				this.options.colcount = 3;
 			}else if(this.options.currentClass=='wcl' || this.options.currentClass=='wcs'){
 				//adding for columns
-				this.wrapper.innerHTML = this.wrapper.innerHTML + '<div class="ds-mod-colum ds-column1"></div>';
-				this.wrapper.innerHTML = this.wrapper.innerHTML + '<div class="ds-mod-colum ds-column2"></div>';
+				this.wrapper.innerHTML = this.wrapper.innerHTML + '<div class="ds-mod-column ds-column1"></div>';
+				this.wrapper.innerHTML = this.wrapper.innerHTML + '<div class="ds-mod-column ds-column2"></div>';
 				this.options.colcount = 2;
 			}else if(this.options.currentClass=='ocl' || this.options.currentClass=='ocs'){
 				//adding for columns
-				this.wrapper.innerHTML = this.wrapper.innerHTML + '<div class="ds-mod-colum ds-column1"></div>';
+				this.wrapper.innerHTML = this.wrapper.innerHTML + '<div class="ds-mod-column ds-column1"></div>';
 				this.options.colcount = 1;
 			}else{
-				this.wrapper.innerHTML = this.wrapper.innerHTML + '<div class="ds-mod-colum ds-column1"></div>';
+				this.wrapper.innerHTML = this.wrapper.innerHTML + '<div class="ds-mod-column ds-column1"></div>';
 				this.options.colcount = 1;
 			}
 			this.wrapper.innerHTML = this.wrapper.innerHTML + '<div style="clear:both"></div>';
-			var nodes = this.wrapper.getElementsByClassName("mod-colum");
+			var nodes = this.wrapper.getElementsByClassName("ds-mod-column");
 			for(i=0; i<nodes.length; i++) {
 			    nodes[i].className+= ' ds-' + this.options.newClass;
 			}
