@@ -44,7 +44,7 @@
 			}
 			if(this.options.currentClass!=this.options.newClass){
 				this.options.currentClass = this.options.newClass;
-				this.sizeIt(that);
+				this.sizeIt();
 			}
 		},
 		sizeIt: function(){
