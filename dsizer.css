@@ -5,15 +5,15 @@
 	box-sizing: border-box;
 	min-height: 1px;
 }
-.ds-mod-column.fcl, .ds-mod-column.fcs{
+.ds-mod-column.ds-fcl, .ds-mod-column.ds-fcs{
 	width: 25%;
 }
-.ds-mod-column.tcl, .ds-mod-column.tcs{
+.ds-mod-column.ds-tcl, .ds-mod-column.ds-tcs{
 	width: 33%;
 }
-.ds-mod-column.wcl, .ds-mod-column.wcs{
+.ds-mod-column.ds-wcl, .ds-mod-column.ds-wcs{
 	width: 50%;
 }
-.ds-mod-column.ocl, .ds-mod-column.ocs{
+.ds-mod-column.ds-ocl, .ds-mod-column.ds-ocs{
 	width: 100%;
 }
