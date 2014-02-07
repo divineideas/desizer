@@ -1,0 +1,19 @@
+.ds-mod-colum{
+	position: relative;
+	float: left;
+	padding: 0 10px;
+	box-sizing: border-box;
+	min-height: 1px;
+}
+.ds-mod-colum.fcl, .ds-mod-colum.fcs{
+	width: 25%;
+}
+.ds-mod-colum.tcl, .ds-mod-colum.tcs{
+	width: 33%;
+}
+.ds-mod-colum.wcl, .ds-mod-colum.wcs{
+	width: 50%;
+}
+.ds-mod-colum.ocl, .ds-mod-colum.ocs{
+	width: 100%;
+}
